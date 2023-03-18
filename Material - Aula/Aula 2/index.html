@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fundamentos Web - Aula 2</title>
+    <style>
+        span{
+            color:red;
+            font-size:2em;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="topo">Sintaxe <abbr title='Hipertext Markup Language'>HTML</abbr></h1>
+    <p>
+        Fundamentos da Web - <a href="https://rafaelescalfoni.github.io/disciplinas/fund_web.html#content" target="_blank"> 
+            Site da Disciplina</a>
+    </p>
+    <p>
+    <em> Lorem&nbsp;ipsum </em> <strong> dolor sit amet consectetur 
+    adipisicing elit. </strong> <br>
+    <mark>
+    Aspernatur deleniti deserunt accusamus. </mark> <br>
+    Perferendis nulla, adipisci eveniet similique 
+    minus aperiam maiores culpa aspernatur, 
+    nobis a et maxime vel <span> sapiente explicabo dolore? </span> <br>
+
+    <img src="./imagens/flor.jpg" alt="Crisântemo" width="200" height="180">
+
+    <h3>Listas</h3>
+    <p>Ordered List (ol)</p>
+    <p>List Item (li)</p>
+    <ol type="I">
+        <li>HTML</li>
+            <ol type="i">
+                <li>Elementos de Conteúdo</li>
+                <li>Elementos de Agrupamento</li>
+                <li>Elementos de Formulário</li>
+            </ol>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <p>Defenition List (DL)</p>
+        <dt>HTML</dt>
+        <dd>HTML é uma linguagem de marcação utilizada para estruturar documentos. </dd>
+    </p>
+
+    <p>
+        <h3>Tabela</h3>
+
+        <table border="l">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Telefone</th>
+            </tr>
+            <tr>
+                <th>Ana</th>
+                <th>18</th>
+                <th>(22)*****-*****</th>
+            </tr>
+            <tr>
+                <th>João</th>
+                <th></th>
+                <th>(22)*****-*****</th>
+            </tr>
+        </table> <br>
+
+        <table border="l">
+            <tr>
+                <th rowspan="2">Nome</th>
+                <th rowspan="2">Idade</th>
+                <th colspan="2">Telefones</th>
+            </tr>
+            <tr>
+                <th>Telefone Fixo</th>
+                <th>Telefone Celular</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>18</td>
+                <td>(22)2537-8218</td>
+                <td>(22)2522-8877</td>
+            </tr>
+        </table>
+    </p>
+    <p>Desenvolvido pela turma de Fundamentos da Web &copy;2023</p>
+
+    <a href="#topo">Retornar ao topo</a>
+</body>
+</html> 
