@@ -1,0 +1,37 @@
+* {
+    margin: 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(./site06/img/banner.jpg);
+    background-size: 1500px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+header h1 {
+    color: white;
+}
+
+header p {
+    color: gray;
+}
+
+footer {
+    padding: 50px;
+    background-color: rgb(24, 24, 24);
+    font-size: 0.9rem;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu-2 {
+    
+}
