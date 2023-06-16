@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url(./Jellyfish.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.2)
+}

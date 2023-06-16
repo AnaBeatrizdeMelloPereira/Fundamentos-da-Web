@@ -1,0 +1,91 @@
+/* Computador */
+@media (min-width:769px){
+    body {
+        background-color: yellow;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: 32%;
+    }
+}
+
+/* Tablet */
+@media (min-width:577px) and (max-width:768px){
+    body {
+        background-color: red;
+    }
+
+    nav{
+        display: none;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: 48%;
+        margin: 20px 0px;
+    }
+
+    .box:last-child {
+        width: 100%;
+    }
+}
+
+/* Celular */
+@media (max-width:576px){
+    body {
+        background-color: blue;
+    }
+
+    nav{
+        display: none;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .box {
+        width: 98%;
+        margin: auto;
+    }
+
+    div {
+        box-sizing: border-box;
+        margin: 20px auto;
+        padding: 10px 15px;
+    }
+}
+
+section, .box, nav, ul {
+    border: #f00 solid 1px;
+}
+body {
+    margin: 20px auto;
+}
